@@ -1,0 +1,35 @@
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook 缓存
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 数据文件夹（屏蔽大文件/敏感数据）
+data/raw/
+data/processed/
+data/external/
+
+# 模型文件夹
+models/
+
+# 输出文件夹
+outputs/
+
+# 环境变量
+.env
+
+# IDE 配置（如 VS Code，可选，若团队共享则可去掉注释）
+.vscode/
+.idea/
+
+# 日志文件
+*.log
