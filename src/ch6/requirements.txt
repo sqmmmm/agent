@@ -1,0 +1,17 @@
+# AutoGen 软件开发团队案例依赖 (v0.7.4)
+autogen-agentchat
+autogen-ext[openai,azure]
+# openai 库, 用于调用 OpenAI API 生成智能体
+openai>=1.0.0
+# 数据可视化库, 交互式可视化
+streamlit>=1.28.0
+# HTTP 库
+requests>=2.31.0
+# 数据处理库
+pandas>=2.0.0
+# 数据可视化库,绘图库
+plotly>=5.15.0
+# 异步库，用于处理异步任务
+asyncio
+# 读取环境变量的库
+python-dotenv

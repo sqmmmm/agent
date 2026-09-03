@@ -1,0 +1,9 @@
+langgraph==1.0.0a3
+langchain_openai==0.3.33
+python-dotenv
+tavily-python
+langchain-core  # 核心库，包含基础功能和接口
+langchain-community  # 包含社区贡献的工具和模型
+langchain-text-splitters  # 用于将文本分割为更小的块
+langchain-openai  # 用于与OpenAI API交互
+chromadb # 用于存储和检索向量数据库
