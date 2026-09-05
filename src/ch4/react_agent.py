@@ -104,7 +104,7 @@ class ReActAgent:
             response_text = self.llm_client.think(messages=messages)
             
             if not response_text:
-                print("错误:LLM未能返回有效响应。")
+                print("错误:LLM未能返回有效的响应。")
                 break
 
             # 3. 如果LLM由响应，则解析LLM的输出

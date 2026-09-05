@@ -84,7 +84,7 @@ class Executor:
         """
         history = "" # 用于存储历史步骤和结果的字符串
         
-        print("\n--- 正在执行计划 ---")
+        print("\n--- 正在执行计划 ----")
         
         for i, step in enumerate(plan):
             print(f"\n-> 正在执行步骤 {i+1}/{len(plan)}: {step}")

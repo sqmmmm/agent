@@ -1,5 +1,7 @@
 import os
 from serpapi import SerpApiClient  # 导入SerpApiClient
+from dotenv import load_dotenv
+load_dotenv()
 
 def search(query: str) -> str:
     """
@@ -45,4 +47,4 @@ def search(query: str) -> str:
 
 
 if __name__ == "__main__":
-    print(search("小米最新款手机？"))
+    print(search("华为最新款的手机？"))

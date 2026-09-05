@@ -50,7 +50,7 @@ class HelloAgentsLLM:
             return "".join(collected_content)
 
         except Exception as e:
-            print(f"❌ 调用LLM API时发生错误: {e}")
+            print(f"❌ 调用LLM API时发生的错误: {e}")
             return None
 
 # --- 客户端使用示例 ---

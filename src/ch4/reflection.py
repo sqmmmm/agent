@@ -173,5 +173,5 @@ if __name__ == "__main__":
     agent = ReflectionAgent(llm_client, 7)
 
     # 运行代理，处理任务
-    task = "请编写一个函数，接收一个整数列表和一个整数 k，返回列表中第 k 个最大的元素。"
+    task = "请编写一个函数， 接收一个整数列表和一个整数 k，返回列表中第 k 个最大的元素。"
     agent.run(task)
